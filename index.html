@@ -41,7 +41,10 @@
         style="min-width: 390px"
       >
         <div class="d-flex justify-content-center">
-          <div class="bottom-navigation">
+          <div
+            class="bottom-navigation"
+            style="left: 50%; transform: translateX(-50%); max-width: 390px"
+          >
             <a href="matchboard.html" class="single-nav active">
               <i class="bi bi-trophy"></i>
               <span>Matches</span>
@@ -67,13 +70,13 @@
         <div
           class="d-flex justify-content-between align-items-center mt-3 mb-2"
         >
-          <a href="#" onclick="window.history.back()">
+          <a href="#" onclick="window.history.back()" class="mt-2">
             <i class="bi bi-arrow-left"></i>
           </a>
-          <p class="mb-0">Flight # 999 | Start</p>
           <div
             class="d-flex justify-content-end align-items-center mt-3 mb-2 gap-2"
           >
+            <p class="mb-0">Flight # 999 | Start</p>
             <a href="deposit.html">
               <img src="assets/img/plus.png" width="25" alt="" />
             </a>
